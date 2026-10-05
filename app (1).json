@@ -1,0 +1,14 @@
+{
+  "name": "Ladla King",
+  "description": "WhatsApp automation bot with Admin Panel",
+  "repository": "https://github.com/yourusername/Ladla_King_Mini_Bot",
+  "keywords": ["whatsapp", "bot", "baileys", "node"],
+  "env": {
+    "OWNER_NUMBER": { "description": "Your WhatsApp number with country code, no +", "value": "923182835581" },
+    "ADMIN_PANEL_PASSWORD": { "description": "Password for the /admin dashboard", "value": "Ladla King 923182835581" },
+    "OPENAI_API_KEY": { "description": "Optional — for .ai command", "required": false },
+    "GIPHY_API_KEY": { "description": "Optional", "required": false }
+  },
+  "formation": { "web": { "quantity": 1, "size": "eco" } },
+  "buildpacks": [{ "url": "heroku/nodejs" }]
+}
